@@ -6,18 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c8c4fc-6700-4e08-898f-31b6f036667e" name="Default" comment="Android MVP 项目开发基本模板">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/adapter/ModAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/adapter/ModAdapter.java" />
+    <list default="true" id="93c8c4fc-6700-4e08-898f-31b6f036667e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\JNetImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/JImageView.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jesturlock\JGestureLock.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/GestureLock.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrecycler\JRecyclerView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrecyclerview/JRecyclerView.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrecycler\RecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrecyclerview/RecyclerAdapter.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrecycler\RecyclerHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrecyclerview/RecyclerHolder.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrefreshlayout\CircleImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/CircleImageView.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrefreshlayout\JRefreshLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/RefreshLayout.java" />
-      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrefreshlayout\MaterialProgressDrawable.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/MaterialProgressDrawable.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -2481,7 +2471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446544044514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.修复下拉刷新多点触崩溃的问题&#10;2.修改了部分类名以及包名">
+      <created>1446623092197</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446623092197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -2495,7 +2491,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294606" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32697096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2543,7 +2539,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Android MVP 项目开发基本模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="Android MVP 项目开发基本模板" />
+    <MESSAGE value="1.修复下拉刷新多点触崩溃的问题&#10;2.修改了部分类名以及包名" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修复下拉刷新多点触崩溃的问题&#10;2.修改了部分类名以及包名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2634,6 +2631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44568008">
           <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2641,6 +2639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15397775">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
