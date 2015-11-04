@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 侧滑菜单id -->
+<resources>
+
+    <item name="selected_view" type="id"/>
+
+</resources>
