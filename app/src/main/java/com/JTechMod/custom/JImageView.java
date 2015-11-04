@@ -12,17 +12,17 @@ import android.util.AttributeSet;
  * @author wuxubaiyang
  *
  */
-public class JNetImageView extends NetworkImageView {
+public class JImageView extends NetworkImageView {
 
-	public JNetImageView(Context context, AttributeSet attrs, int defStyle) {
+	public JImageView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}
 
-	public JNetImageView(Context context, AttributeSet attrs) {
+	public JImageView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 
-	public JNetImageView(Context context) {
+	public JImageView(Context context) {
 		super(context);
 	}
 

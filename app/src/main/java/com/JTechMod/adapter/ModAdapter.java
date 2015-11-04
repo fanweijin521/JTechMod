@@ -1,7 +1,7 @@
 package com.JTechMod.adapter;
 
-import com.JTechMod.custom.jrecycler.RecyclerAdapter;
-import com.JTechMod.custom.jrecycler.RecyclerHolder;
+import com.JTechMod.custom.jrecyclerview.RecyclerAdapter;
+import com.JTechMod.custom.jrecyclerview.RecyclerHolder;
 
 import android.content.Context;
 import android.view.LayoutInflater;

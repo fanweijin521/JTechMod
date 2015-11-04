@@ -6,7 +6,19 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c8c4fc-6700-4e08-898f-31b6f036667e" name="Default" comment="Android MVP 项目开发基本模板" />
+    <list default="true" id="93c8c4fc-6700-4e08-898f-31b6f036667e" name="Default" comment="Android MVP 项目开发基本模板">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/adapter/ModAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/adapter/ModAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\JNetImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/JImageView.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jesturlock\JGestureLock.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/GestureLock.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrecycler\JRecyclerView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrecyclerview/JRecyclerView.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrecycler\RecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrecyclerview/RecyclerAdapter.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrecycler\RecyclerHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrecyclerview/RecyclerHolder.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrefreshlayout\CircleImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/CircleImageView.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrefreshlayout\JRefreshLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/RefreshLayout.java" />
+      <change type="MOVED" beforePath="D:\workspaceAS\JTechMod\app\src\main\java\com\JTechMod\custom\jrefreshlayout\MaterialProgressDrawable.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/MaterialProgressDrawable.java" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -2012,7 +2024,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrefreshlayout/MaterialProgressDrawable.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/slidingmenu/SlidingMenu.java" />
         <option value="$PROJECT_DIR$/jvolley/src/main/java/com/android/volley/toolbox/ImageLoader.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/JGestureLock.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/slidingmenu/CustomViewAbove.java" />
         <option value="$PROJECT_DIR$/jvolley/src/main/java/com/android/volley/NetworkDispatcher.java" />
         <option value="$PROJECT_DIR$/jvolley/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java" />
@@ -2023,6 +2034,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/entity/ModEntity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/entity/base/BaseEntity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/JGestureLock.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/GestureLock.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/RefreshLayout.java" />
       </list>
     </option>
   </component>
@@ -2078,6 +2092,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2192,7 +2208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2219,8 +2235,6 @@
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2620,7 +2634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44568008">
           <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2628,7 +2641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15397775">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2737,7 +2749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrefreshlayout/MaterialProgressDrawable.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/MaterialProgressDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="152" column="7" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
@@ -2755,13 +2767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="492" column="58" selection-start-line="492" selection-start-column="58" selection-end-line="492" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/JGestureLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="243" column="25" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -2825,7 +2830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2850,22 +2854,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jrefreshlayout/JRefreshLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79469633">
-          <caret line="362" column="16" selection-start-line="362" selection-start-column="16" selection-end-line="362" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46193328">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/refreshlayout/RefreshLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5556537">
+          <caret line="1028" column="41" selection-start-line="1028" selection-start-column="28" selection-end-line="1028" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/JTechMod/custom/jesturlock/GestureLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3079555">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

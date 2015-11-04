@@ -1,4 +1,4 @@
-package com.JTechMod.custom.jrecycler;
+package com.JTechMod.custom.jrecyclerview;
 
 import java.util.ArrayList;
 import java.util.Collection;

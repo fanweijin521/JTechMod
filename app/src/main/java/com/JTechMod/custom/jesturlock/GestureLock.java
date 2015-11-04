@@ -27,7 +27,7 @@ import android.view.SurfaceView;
  * @author wuxubaiyang
  *
  */
-public class JGestureLock extends SurfaceView implements SurfaceHolder.Callback {
+public class GestureLock extends SurfaceView implements SurfaceHolder.Callback {
 	/**
 	 * tag
 	 */
@@ -162,17 +162,17 @@ public class JGestureLock extends SurfaceView implements SurfaceHolder.Callback 
 		};
 	};
 
-	public JGestureLock(Context context) {
+	public GestureLock(Context context) {
 		super(context);
 		init();
 	}
 
-	public JGestureLock(Context context, AttributeSet attrs) {
+	public GestureLock(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		init();
 	}
 
-	public JGestureLock(Context context, AttributeSet attrs, int defStyle) {
+	public GestureLock(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		init();
 	}

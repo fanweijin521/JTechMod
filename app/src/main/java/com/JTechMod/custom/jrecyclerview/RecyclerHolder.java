@@ -1,4 +1,4 @@
-package com.JTechMod.custom.jrecycler;
+package com.JTechMod.custom.jrecyclerview;
 
 import android.content.Context;
 import android.graphics.Bitmap;

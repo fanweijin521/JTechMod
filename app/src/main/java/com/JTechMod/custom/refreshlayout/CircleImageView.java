@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.JTechMod.custom.jrefreshlayout;
+package com.JTechMod.custom.refreshlayout;
 
 import android.content.Context;
 import android.graphics.Canvas;
